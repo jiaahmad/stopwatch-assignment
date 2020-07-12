@@ -1,0 +1,50 @@
+body{
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	background: #00050c;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Poppins', sans-serif;
+    color: #615e5e;
+}
+div#stop-watch {
+    border-radius: 102px;
+    padding: 2%;
+    border: 0;
+	background: #f740ab;
+	box-shadow:  5px 5px 10px #cfb4ab, 
+             -5px -5px 10px #d3b794;
+}
+div#stopwatch-time {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background: #F4D4C9;
+    box-shadow: 20px 20px 60px #cfb4ab, -20px -20px 60px #fff4e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3px;
+    font-size: 2rem;
+}
+button#sw-reset, button#sw-go {
+	margin: 50px 20px 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 0;
+    background: #F4D4C9;
+    box-shadow: 20px 20px 60px #cfb4ab, -20px -20px 60px #fff4e7;
+    color: #423e3e;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button#sw-reset:focus, button#sw-go:focus{
+	outline: none;
+}
+button#sw-reset:hover, button#sw-go:hover{
+	color: #fff;
+}
